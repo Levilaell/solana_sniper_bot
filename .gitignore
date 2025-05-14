@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# VS Code settings
+.vscode/
+
+# Log files
+*.log
+
+# Environment variable files
+.env
+*.env
+
+# JSON files that might contain sensitive data
+keypair.json
+config.json
+user_session.session
+tmp_session.session
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Python test/cache
+*.coverage
+.tox/
+.nox/
+.coverage.*
+.cache/
+.pytest_cache/
+*.pkl
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Compiled Cython files
+*.c
+*.cpp
+*.so
